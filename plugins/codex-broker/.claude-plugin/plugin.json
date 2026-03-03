@@ -1,0 +1,5 @@
+{
+  "name": "codex-broker",
+  "description": "Connects to the Codex broker MCP server for cross-AI plan handoffs",
+  "version": "1.0.0"
+}

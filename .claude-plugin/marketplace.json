@@ -1,0 +1,21 @@
+{
+  "name": "pdbdnt-plugins",
+  "owner": {
+    "name": "pdbdnt"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by pdbdnt — flow visualizations, AI orchestration tools"
+  },
+  "plugins": [
+    {
+      "name": "codex-broker",
+      "source": "./plugins/codex-broker",
+      "description": "Connects to the Codex broker MCP server for cross-AI plan handoffs"
+    },
+    {
+      "name": "flow-gc-visualizer",
+      "source": "./plugins/flow-gc-visualizer",
+      "description": "Group-chat style architecture/flow visualization where system components talk to each other like friends in a messaging app"
+    }
+  ]
+}

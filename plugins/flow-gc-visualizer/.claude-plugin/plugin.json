@@ -1,0 +1,5 @@
+{
+  "name": "flow-gc-visualizer",
+  "description": "Group-chat style architecture/flow visualization where system components talk to each other like friends in a messaging app",
+  "version": "1.0.0"
+}
