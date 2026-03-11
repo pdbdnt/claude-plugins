@@ -1,0 +1,5 @@
+{
+  "name": "git-cp",
+  "description": "Git commit and push workflow with plan-based commit messages",
+  "author": { "name": "denni" }
+}

@@ -12,6 +12,9 @@ Turn your system architecture into an animated group chat — each service is an
 ### codex-broker
 Connects to the Codex broker MCP server for cross-AI plan handoffs. Requires a local Codex broker server running — see `.mcp.json` template and set your own port.
 
+### git-cp
+Git commit and push workflow that aggregates all uncommitted changes, reads plan files from the project root `plans/` directory to build detailed commit messages, then commits and pushes. Invoke with `/git-cp`.
+
 ## Installation
 
 Add this marketplace to Claude Code:
@@ -25,6 +28,7 @@ Then install individual plugins:
 ```
 /plugin install flow-gc-visualizer
 /plugin install codex-broker
+/plugin install git-cp
 ```
 
 ## codex-broker Setup

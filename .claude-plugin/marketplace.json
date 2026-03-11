@@ -4,7 +4,7 @@
     "name": "pdbdnt"
   },
   "metadata": {
-    "description": "Claude Code plugins by pdbdnt — flow visualizations, AI orchestration tools"
+    "description": "Claude Code plugins by pdbdnt — flow visualizations, AI orchestration tools, git workflows"
   },
   "plugins": [
     {
@@ -16,6 +16,11 @@
       "name": "flow-gc-visualizer",
       "source": "./plugins/flow-gc-visualizer",
       "description": "Group-chat style architecture/flow visualization where system components talk to each other like friends in a messaging app"
+    },
+    {
+      "name": "git-cp",
+      "source": "./plugins/git-cp",
+      "description": "Git commit and push workflow that reads plan files to build detailed commit messages"
     }
   ]
 }
